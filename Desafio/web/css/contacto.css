@@ -1,0 +1,112 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 16 oct. 2020, 11:04:00
+    Author     : nestor
+*/
+
+
+
+form input[name="edad"]{
+    max-width: 40px;
+   
+}
+
+html{
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: #e5e5e5;
+}
+
+
+header{
+    text-align: center;
+    margin-top: 2%;
+    background-color: blue;
+    border-radius: 10px;
+}
+
+
+seccion article{
+    margin-top: 5%;
+}
+
+hr{
+    margin-left: 0%;
+    width: 500px;
+     background: linear-gradient(to right, rgb(0, 255, 234), rgb(0, 140, 255), rgb(0, 55, 128));
+    border: 0; 
+    height: 2px;
+}
+
+ 
+
+
+footer{
+    text-align: right;
+}
+footer img{
+    width: 50px;
+   
+}
+
+
+input:valid{
+    background-color: green;
+       
+}
+input:invalid{
+    background-color: red;
+}
+
+input:valid:required{
+    background-color: green;
+       
+}
+
+
+
+
+input[type=email]{
+  -webkit-appearance: none;
+  appearance: none;
+
+  width: 100%;
+  border: 1px solid #333;
+  margin: 0;
+
+  font-family: inherit;
+  font-size: 90%;
+
+  box-sizing: border-box;
+}
+.error {
+  width : 100%;
+  padding: 0;
+
+  font-size: 80%;
+  color: white;
+  background-color: #900;
+  border-radius: 0 0 5px 5px;
+
+  box-sizing: border-box;
+}
+
+.error.active {
+  padding: 1em;
+}
+
+.noerror {
+  width : 100%;
+  padding: 0;
+
+  font-size: 80%;
+  color: white;
+  background-color: #090;
+  border-radius: 0 0 5px 5px;
+
+  box-sizing: border-box;
+}
